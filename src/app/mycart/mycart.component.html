@@ -1,8 +1,15 @@
 <br>
 <br>
+<<<<<<< HEAD
 
 <div class="container">
     <div class="row" id="main">
+=======
+<section>
+<div class="container">
+    <div class="row trackg" id="main">
+    
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
       <div class="tracking" id="cart"><div class="tracecart">
           <span class="fa-stack">
       
@@ -63,6 +70,7 @@
 <br>
 <div class="container-fluid bg-light">
 <div class="row">
+<<<<<<< HEAD
   <h1 class="col-sm-3 item"><b>My Cart-</b> <span class="item">{{count}} items</span></h1>
   <p class="col-sm-2 offset-sm-3 item">Total Rent: {{amount3}} </p>
   <div class="col-sm-12 col-md-12  col-lg-3 col-xl-3 offset-xl-8 card notes"> Delivery Notes<a (click)="deliveryNotes()" ><p [ngStyle]="{ 'color':'#17a2b8'}">Add any Delivery notes</p></a>
@@ -79,11 +87,40 @@
             <p class="rent">Rental Period</p> <br> <span style="font-weight:bold;color:black" class="period">6Dec'17-12 Dec'17</span></div>
              <div class=" col-xl-3 col-sm-4 offset-sm-6 offset-xl-0 delivery ">Delivaery & PickUP <br> <span style="font-weight:bold;color:green" class="amounts">{{mycart.amount2}}</span></div>
              <div class="col-sm-4 offset-sm-1 col-xl-2  offset-xl-0 rentname" >Rent <br> <span style="font-weight:bold;font-size:20px;color:black" class="amount1">{{mycart.amount3}}</span></div>
+=======
+  <h1 class="col-sm-4 col-xl-3  offset-xl-0 item"><b>My Cart-</b> <span class="item">{{count}} items</span></h1>
+  <p class="col-sm-4 offset-sm-4 col-xl-2 offset-xl-2 item">Total Rent:<i class="	fa fa-inr"></i> {{totalrent}} </p>
+  <div class="col-sm-12 col-md-12  col-lg-12 col-xl-3 offset-xl-1 card "> Delivery Notes<a (click)="deliveryNotes()" ><p [ngStyle]="{ 'color':'#17a2b8'}">Add any Delivery notes</p></a>
+    <p id="demo" *ngIf="this.delivery==''"><textarea rows="4" cols="40" name="comment" form="usrform"></textarea></p></div>
+</div>
+
+
+
+
+    <div class="row details" *ngFor="let mycart of mycartdata">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-7  card note">
+            <div class="row">
+             <div class=" col-sm-5 offset-sm-3  col-xl-3 offset-xl-0 "><img src={{mycart.href}} width="100%"></div>
+             <div class="col-sm-4 col-xs-4 offset-xs-8 col-xl-2 offset-xl-0 name"><b>{{mycart.name}}</b></div>
+             <!-- <div class="col-sm-4 col-xs-4 offset-xs-8 col-xl-2 offset-xl-0 quantity"><b>quantity</b></div> -->
+             <div class="col-sm-4 offset-sm-0  col-xl-2 offset-xl-0  col-lg-3  offset-lg-3 amname" >Refundable Deposit <br>
+                <span style="font-weight:bold;color:green" class="amounts"><i class="	fa fa-inr"></i>{{mycart.amount}}</span><br><br>
+                <br>
+            <p class="rent">Rental Period</p> <br> <span style="font-weight:bold;color:black" class="period">6Dec'17-12 Dec'17</span></div>
+             <div class=" col-xl-3 col-sm-4 offset-sm-6 offset-xl-0 delivery ">Delivaery & PickUP <br> <span style="font-weight:bold;color:green" class="amounts"><i class="	fa fa-inr"></i>{{mycart.amount2}}</span></div>
+             <div class="col-sm-4 offset-sm-1 col-xl-2  offset-xl-0 rentname" >Rent <br> <span style="font-weight:bold;font-size:20px;color:black" class="amount1"><i class="	fa fa-inr"></i>{{mycart.amount3}}</span></div>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
              
              </div>
     </div>
 </div>
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
    <div class="row details"> 
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3  offset-xl-8 card payment">
             <h5 class="item">Rent Summary</h5>
@@ -93,27 +130,47 @@
                             <tbody>
                               <tr>
                                 <td>Total Rent</td>
+<<<<<<< HEAD
                                 <td>{{array}}</td>
+=======
+                                <td><i class="	fa fa-inr"></i>{{totalrent}}</td>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                                 
                               </tr>
                               <tr>
                                 <td>Total Refundable Deposit</td>
+<<<<<<< HEAD
                                 <td>{{refundableamount}}</td>
+=======
+                                <td><i class="	fa fa-inr"></i>{{refundableamount}}</td>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                                 
                               </tr>
                               <tr>
                                 <td>Deliver & pickup</td>
+<<<<<<< HEAD
                                 <td>{{deliverycharge}}</td>
+=======
+                                <td><i class="	fa fa-inr"></i>{{deliverycharge}}</td>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                                 
                               </tr>
                               <tr>
                                     <td>Discount</td>
+<<<<<<< HEAD
                                     <td class="amount">-$ 100</td>
+=======
+                                    <td class="amount">-<i class="	fa fa-inr"></i> 100</td>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                                     
                                   </tr>
                                   <tr>
                                     <td><input type="checkbox" name="loyality" value="Loyality" id="loyality" [(ngModel)]="loyality" #loyalityControl="ngModel" (change)="checkout(loyality)">Loyality Points<br>you can use max 200 points</td>
+<<<<<<< HEAD
                                     <td id="amount" *ngIf="loyalityamount=='amount'" class="amount">-$ 100</td>
+=======
+                                    <td id="amount" *ngIf="loyalityamount=='amount'" class="amount">-<i class="	fa fa-inr"></i>100</td>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                                     
                                   </tr>
                                   <br>
@@ -126,7 +183,11 @@
                                   <br>
                                   <tr>
                                     <td><h5>Total Payable Amount</h5></td>
+<<<<<<< HEAD
                                     <td class="amount"><b>$ 10400</b></td>
+=======
+                                    <td class="amount"><b><i class="	fa fa-inr"></i> 10400</b></td>
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                                     
                                   </tr>
                                   <tr>
@@ -141,5 +202,10 @@
         </div>
     </div>
     </div>
+<<<<<<< HEAD
     
     
+=======
+    </div>
+</section>    
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af

@@ -24,7 +24,12 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css"
+=======
+              "src/styles.css",
+              "./node_modules/ngx-toastr/toastr.css"
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
             ],
             "scripts": []
           },

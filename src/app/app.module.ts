@@ -15,8 +15,13 @@ import { MycartComponent } from './mycart/mycart.component';
 import { OrderComponent } from './order/order.component';
 import { DateRangePickerModule } from '@syncfusion/ej2-angular-calendars';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+<<<<<<< HEAD
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+=======
+
+
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 
 @NgModule({
   declarations: [
@@ -35,8 +40,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     DateRangePickerModule,
     Ng2SearchPipeModule,
+<<<<<<< HEAD
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
+=======
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
   ],
   providers: [OfficeEquipmentService],
   bootstrap: [AppComponent]

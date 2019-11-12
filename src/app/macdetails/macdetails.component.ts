@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import {OfficeEquipmentService} from '../office-equipment.service';
 import $ from "jquery";
@@ -13,6 +14,19 @@ enableRipple(true);
 
 import { DateRangePicker } from '@syncfusion/ej2-calendars';
 
+=======
+import { Component, OnInit , Output  } from '@angular/core';
+import {OfficeEquipmentService} from '../office-equipment.service';
+import swal from 'sweetalert2'
+import {AngularFirestore,AngularFirestoreCollection,AngularFirestoreDocument} from 'angularfire2/firestore';
+import { NgForm } from '@angular/forms';
+import * as moment from 'moment';
+import { enableRipple } from '@syncfusion/ej2-base';
+enableRipple(true);
+import { DateRangePicker } from '@syncfusion/ej2-calendars';
+
+
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 @Component({
   selector: 'app-macdetails',
   templateUrl: './macdetails.component.html',
@@ -28,6 +42,7 @@ export class MacdetailsComponent implements OnInit {
   rentamount: any;
   deliveryamount: any;
   refundamount: any;
+<<<<<<< HEAD
   value:number;
   i:any;added: boolean;
   cart: string;
@@ -41,10 +56,23 @@ export class MacdetailsComponent implements OnInit {
   constructor(private officeservice:OfficeEquipmentService,
               private firestore:AngularFirestore,
                private toastr: ToastrService,) { 
+=======
+
+  i:any;added: boolean;
+  cart: string;
+  value:number=1;
+  boyfriend:number;
+  public n : number = 1;
+  public date: Object = new Date();
+  constructor(private officeservice:OfficeEquipmentService,
+              private firestore:AngularFirestore,
+              ) { 
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
    
   }
 
   ngOnInit() {
+<<<<<<< HEAD
 //     this.resetForm(); 
 //     this.age=[
 //       {"name":"1-2Years"},
@@ -137,14 +165,62 @@ export class MacdetailsComponent implements OnInit {
     value = isNaN(value) ? 0 : value;
     value++;
     document.getElementById('number').value = value;
+=======
+
+    this.officeservice.getequipments()
+    .subscribe((data)=>{
+      console.log(data);
+      this.images=data;
+      console.log('images',this.images);
+      if(this.images[0].name ==='Macbook Pro 16GB RAM'){
+        this.macbook=true;
+      }else if (this.images[0].name !=='Macbook Pro 16GB RAM'){
+  this.macbook=false;
+}
+console.log(this.macbook);
+    
+    })
+
+
+  }
+  addedtocart(){
+    swal.fire({
+      title: "Added To Cart",
+      text: "",
+      type: "success",
+      confirmButtonColor: "#f69321",
+      confirmButtonText: "OK"
+    })
+ console.log(this.cart);
+  }
+  
+  incrementValue(){
+    var mod = 1;
+    var value = +(<HTMLInputElement>document.getElementById('number')).value;
+    
+    value += mod;
+    (<HTMLInputElement>document.getElementById('number')).value = value.toString();
+    
+    
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 }
 
 decrementValue()
 {
+<<<<<<< HEAD
     var value = parseInt(document.getElementById('number').value, 10);
     value = isNaN(value) ? 0 : value;
     value--;
     document.getElementById('number').value = value;
+=======
+  var mod = 1;
+  var value = +(<HTMLInputElement>document.getElementById('number')).value;
+  value -= mod;
+  
+  (<HTMLInputElement>document.getElementById('number')).value = value.toString(); 
+    
+   
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 }
   resetForm(form?:NgForm){
     form.resetForm();
@@ -159,6 +235,7 @@ decrementValue()
     }
    
   }
+<<<<<<< HEAD
   quantityadd(i){
     ++i;
     document.getElementById('inc').value=i;
@@ -168,6 +245,8 @@ decrementValue()
     //   $qty.value = parseInt($qty.value) + 1; // `parseInt` converts the `value` from a string to a number
     // }, false);
   }
+=======
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
   addtocart(form:NgForm){
     this.createcart={
       "Quantity":this.officeservice.formData.quantity,

@@ -9,14 +9,37 @@
 } */
 /* .input{
     opacity: 0.5;
+<<<<<<< HEAD
 } */ */
+=======
+} */ 
+.logo{
+	height:50px;
+}
+  
+.search{
+	font-size:15px;
+	margin-bottom:10px;
+}
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 
 ul{
 	
 	 color:black;
 	font-size:24px; 
 }
+<<<<<<< HEAD
 
+=======
+.header{
+	background-color:black
+}
+.badge{
+	margin-bottom: 14px;
+    background-color: red;
+
+}
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 
 input{
 
@@ -28,9 +51,29 @@ input{
 	width:500px;
 	padding-top:20px;
 	padding-bottom: 20px;
+<<<<<<< HEAD
 }
 .name{
 	margin-right:20px;
+=======
+	border: none;
+    border-color: transparent;
+}
+.name{
+	margin-right:20px;
+	color:black;font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+.cart{
+	font-size:24px;
+	color:black;
+	margin-top:13px;
+}
+a,p,.location{
+	color:white;
+	font-family: 'Times New Roman', Times, serif;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 }
 @media (max-width: 62em) {
 	.navbar-nav {
@@ -71,9 +114,15 @@ input{
 }
 }
 @media screen and (min-width: 360px) and (max-width:599px){
+<<<<<<< HEAD
 	/* .search{
 			margin-left: 8px;
 	} */
+=======
+	.search{
+			margin-left: 8px;
+	}
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 	/* .searchinput{
 		margin-right: -3px;
 	} */
@@ -85,6 +134,18 @@ input{
 	
 	}
 }
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 400px) and (max-width:450px){
+	.searchinput{
+		width: 207px;
+		margin-right: 32px;
+	
+	
+	
+	}
+}
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 @media screen and (min-width: 640px) and (max-width:822px){
 
 .searchinput{
@@ -96,6 +157,15 @@ input{
 	margin-left: -53px;
 }
 }
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 450px) and (max-width:500px){
+	.searchinput{
+		width: 265px;
+    margin-right: 32px;
+	}
+}
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 @media screen and (min-width: 568px) and (max-width:568px){
 	.searchinput{
 		width: 300px;
@@ -108,6 +178,11 @@ input{
 } */
 .searchinput{
 	width: 300px;
+<<<<<<< HEAD
     margin-left: -472px;
+=======
+    margin-left: -382px;
+
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 }
 }

@@ -12,6 +12,7 @@
     font-size:20px;
     font-family: 'Times New Roman', Times, serif;
 }
+<<<<<<< HEAD
 #main .tracking{
     
     color:green;
@@ -96,3 +97,38 @@
    } 
    } */
 /*  */
+=======
+ #main .num{
+    color:#20c997;
+}
+ .icons{
+     font-size: 20px;
+     top:20px;
+ } 
+.btn{
+    background-color:#20c997;
+}
+.circle{
+     color: black;
+     font-size: 100px;
+     font-weight: bold;
+     margin:auto;
+     margin-left:45%;
+}
+.text{
+    font-size: 20px; 
+    font-weight: bold;text-align:center;
+    font-size:20px;
+    font-family:'Times New Roman';
+}
+@media screen and (min-width: 992px){
+    #main{
+        display:flex;
+    }
+    #main .tracking{
+      -webkit-flex: 1; 
+      -ms-flex: 1;   
+      flex: 1;  
+    }  
+}
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af

@@ -3,7 +3,13 @@ a{
     color:blue;
 }
 .payment{
+<<<<<<< HEAD
     top: -343px;
+=======
+    top: 45%;
+    
+    
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 }
 .btn{
     padding:10px;
@@ -28,7 +34,10 @@ li{
     font-family: 'Times New Roman', Times, serif;
 }
 .name{
+<<<<<<< HEAD
     margin-top:30px;
+=======
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     font-size:20px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -79,11 +88,16 @@ li{
         top:0px;
     }
     .amounts{
+<<<<<<< HEAD
         margin-left: 280px;
+=======
+        margin-left: 272px;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
         margin-top: -18px;
         position: absolute;
     }
     .amount1{
+<<<<<<< HEAD
         margin-left: 273px;
         margin-top: -23px;
         position: absolute;
@@ -95,12 +109,30 @@ li{
         margin-left: 200px;
         margin-top: -57px;
         position: absolute;
+=======
+        margin-left: 262px;
+        margin-top: -23px;
+        position: absolute;
+    }
+   .rent,.quantity{
+       margin-top:-51px;
+   }
+    .period{
+        margin-left: 193px;
+        margin-top: -49px;
+        position: absolute;
+
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     } 
     .details{
         margin-left:20px;          
     }
     .notes{
+<<<<<<< HEAD
         margin-left:30px;
+=======
+        margin-left:20px;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     }
     .tracecart{              
         position:absolute;
@@ -108,11 +140,16 @@ li{
         -webkit-transform: rotate(90deg); /* Safari 3-8 */
         transform: rotate(90deg);
         left: -15%;
+<<<<<<< HEAD
         top: 47%;
+=======
+        top: 67%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 
 } 
 #tracedelivery{
     left: -23%;
+<<<<<<< HEAD
     top: 74%;
 }
 #tracepayment{
@@ -122,6 +159,17 @@ li{
 #traceorder{
     left:-26%;
     top:140%;
+=======
+    top: 94%;
+}
+#tracepayment{
+    left:-24%;
+    top:127%;
+}
+#traceorder{
+    left:-27%;
+    top:160%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     margin-left:7px;
 } 
   } 
@@ -134,12 +182,20 @@ li{
 
     }
     .amounts{
+<<<<<<< HEAD
         margin-left: 266px;
+=======
+        margin-left: 252px;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
         margin-top: -18px;
         position: absolute;
     }
     .amount1{
+<<<<<<< HEAD
         margin-left: 263px;
+=======
+        margin-left: 241px;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
         margin-top: -23px;
         position: absolute;
     
@@ -148,9 +204,16 @@ li{
        margin-top:-51px;
    }
     .period{
+<<<<<<< HEAD
         margin-left: 189px;
         margin-top: -56px;
         position: absolute;
+=======
+        margin-left: 173px;
+        margin-top: -56px;
+        position: absolute;
+    
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     }
     #tracevertival{
         width: 150px;
@@ -166,26 +229,50 @@ li{
         margin-left:30px;
        margin-right:10px;
     }
+<<<<<<< HEAD
+=======
+    .trackg{
+       top:20%;
+
+
+    } 
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     .tracecart{              
         position:absolute;
         -ms-transform: rotate(90deg); /* IE 9 */
         -webkit-transform: rotate(90deg); /* Safari 3-8 */
         transform: rotate(90deg);
         left:-18%;
+<<<<<<< HEAD
         top:55%;
 } 
 #tracedelivery{
     left: -28%;
     top: 85%;
+=======
+        top:75%;
+} 
+#tracedelivery{
+    left: -28%;
+    top: 105%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
 
 }
 #tracepayment{
     left:-29%;
+<<<<<<< HEAD
     top:122%;
 }
 #traceorder{
     left:-32%;
     top:160%;
+=======
+    top:142%;
+}
+#traceorder{
+    left:-32%;
+    top:180%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
     margin-left:7px;
 } 
     } 
@@ -226,6 +313,7 @@ li{
             top:0px;    
         }
         .amounts{
+<<<<<<< HEAD
             margin-left: 255px;
             margin-top: -18px;
             position: absolute;
@@ -234,14 +322,33 @@ li{
             margin-left: 248px;
             margin-top: -23px;
             position: absolute;        
+=======
+            margin-left: 219px;
+            margin-top: -18px;
+            position: absolute;
+        }
+        
+        .amount1{
+            margin-left: 205px;
+            margin-top: -23px;
+            position: absolute;
+                
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
         }
        .rent{
            margin-top:-51px;
        }
         .period{
+<<<<<<< HEAD
             margin-left: 181px;
             margin-top: -58px;
             position: absolute;
+=======
+            margin-left: 138px;
+            margin-top: -58px;
+            position: absolute;
+        
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
         }
         #tracevertival{
             width: 150px;
@@ -263,6 +370,7 @@ li{
             -webkit-transform: rotate(90deg); /* Safari 3-8 */
             transform: rotate(90deg);
             left:-18%;
+<<<<<<< HEAD
             top:60%;
         } 
         #tracedelivery{
@@ -276,6 +384,21 @@ li{
         #traceorder{
         left:-34%;
         top:180%;
+=======
+            top:85%;
+        } 
+        #tracedelivery{
+        left:-29%;
+        top:120%;
+        }
+        #tracepayment{
+        left:-31%;
+        top:162%;
+        }
+        #traceorder{
+        left:-35%;
+        top:205%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
         margin-left:7px;
         } 
      }
@@ -293,10 +416,24 @@ li{
                 .details{
                     margin-left:30px;
                 }
+<<<<<<< HEAD
+=======
+                .notes{
+                    margin-left:40px;
+                    
+                }
+                /* .trackg{
+                    position: absolute;
+    transform: rotate(90deg);
+    left: -65%;
+    top: 224%;
+                } */
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                 .tracecart{
                     position: absolute;
                     transform: rotate(90deg);
                     left: -9%;
+<<<<<<< HEAD
                     top: 105%;
             } 
             #tracedelivery{
@@ -311,6 +448,22 @@ li{
             #traceorder{
                 left:-17%;
                 top:289%;
+=======
+                    top: 125%;
+            } 
+            #tracedelivery{
+                left:-16%;
+                top:180%;
+                margin-left:6px;
+            }
+            #tracepayment{
+                left:-16%;
+                top:242%;
+            }
+            #traceorder{
+                left:-18%;
+                top:310%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                 margin-left:7px;
             } 
                }
@@ -321,7 +474,11 @@ li{
                     left: -6%;
                     top: 70%;
             } 
+<<<<<<< HEAD
             #tracedelivery{
+=======
+            /* #tracedelivery{
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                 left:-11%;
                 top:118%;
                 margin-left:6px;
@@ -334,7 +491,11 @@ li{
                 left:-12%;
                 top:242%;
                 margin-left:7px;
+<<<<<<< HEAD
             } 
+=======
+            }  */
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                }
                @media screen and (min-width: 823px) and (max-width:823px){
                 .amname{
@@ -351,15 +512,24 @@ li{
                  position: absolute;
                  transform: rotate(90deg);
                  left: -7%;
+<<<<<<< HEAD
                  top: 85%;
          } 
          #tracedelivery{
              left:-12%;
              top:135%;
+=======
+                 top: 105%;
+         } 
+         #tracedelivery{
+             left:-12%;
+             top:155%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
              margin-left:6px;
          }
          #tracepayment{
              left:-12%;
+<<<<<<< HEAD
              top:195%;
          }
          #traceorder{
@@ -369,31 +539,64 @@ li{
          } 
             }
             @media screen and (min-width: 768px) and (max-width:768px){
+=======
+             top:215%;
+         }
+         #traceorder{
+             left:-13%;
+             top:277%;
+             margin-left:7px;
+         } 
+            }
+            @media screen and (min-width: 768px) and (max-width:800px){
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
              .tracecart{
                  position: absolute;
                  transform: rotate(90deg);
                  left: -7%;
+<<<<<<< HEAD
                  top: 35%;
          } 
          #tracedelivery{
              left:-13%;
              top:54%;
+=======
+                 top: 43%;
+         } 
+         #tracedelivery{
+             left:-13%;
+             top:62%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
              margin-left:6px;
          }
          #tracepayment{
              left:-13%;
+<<<<<<< HEAD
              top:76%;
          }
          #traceorder{
              left:-14%;
              top:100%;
+=======
+             top:84%;
+         }
+         #traceorder{
+             left:-14%;
+             top:108%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
              margin-left:7px;
          } 
             }
                
+<<<<<<< HEAD
                @media screen and (min-width: 993px) and (max-width:1023px){
                 .delivery{
                     margin-top: -184px;
+=======
+               @media screen and (min-width: 993px) and (max-width:1200px){
+                .delivery{
+                    margin-top: -171px;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
             }
             .details{
                 margin-left:30px;
@@ -452,20 +655,36 @@ li{
                    -webkit-transform: rotate(90deg); /* Safari 3-8 */
                    transform: rotate(90deg);
                    left:-10%;
+<<<<<<< HEAD
                    top:117%;
            }
            #tracedelivery{
                left:-17%;
                top:180%;
+=======
+                   top:137%;
+           }
+           #tracedelivery{
+               left:-17%;
+               top:200%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                margin-left:5px;
            }
            #tracepayment{
                left:-17%;
+<<<<<<< HEAD
                top:255%;
            }
            #traceorder{
                left:-19%;
                top:330%;
+=======
+               top:275%;
+           }
+           #traceorder{
+               left:-19%;
+               top:350%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                margin-left:5px;
            }
                }
@@ -476,15 +695,24 @@ li{
                    -webkit-transform: rotate(90deg); /* Safari 3-8 */
                    transform: rotate(90deg);
                    left:-15%;
+<<<<<<< HEAD
                    top:50%;
            }
            #tracedelivery{
                left:-26%;
                top:75%;
+=======
+                   top:70%;
+           }
+           #tracedelivery{
+               left:-26%;
+               top:100%;
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
                margin-left:5px;
            }
            #tracepayment{
                left:-26%;
+<<<<<<< HEAD
                top:105%;
            }
            #traceorder{
@@ -493,3 +721,24 @@ li{
                margin-left:5px;
            }
                }
+=======
+               top:135%;
+           }
+           #traceorder{
+               left:-28%;
+               top:170%;
+               margin-left:5px;
+           }
+               }
+               @media screen and (min-width: 1200px) {
+                .note{
+                    margin-top:60px;
+                    position:sticky;
+                }
+                .details{
+                    margin-top:-140px;
+                    position:sticky;          
+                }
+               }   
+               
+>>>>>>> 4b2f9bd11c734637f2de625d89995a932f09f4af
