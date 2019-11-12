@@ -1,0 +1,145 @@
+<br>
+<br>
+
+<div class="container">
+    <div class="row" id="main">
+      <div class="tracking" id="cart"><div class="tracecart">
+          <span class="fa-stack">
+      
+          
+        
+          <span class="fa fa-circle-o fa-stack-2x"></span>
+          
+          <strong class="fa-stack-1x">
+                 1
+          </strong>
+      </span>&nbsp;<span class="smallfont" >Cart    --------------------</span></div></div>
+      <div  class="tracking" ><div class="tracecart" id="tracedelivery">
+          <span class="fa-stack">
+      
+          
+        
+          <span class="fa fa-circle-o fa-stack-2x"></span>
+          
+          <strong class="fa-stack-1x">
+                 2
+          </strong>
+      </span>&nbsp;<span class="smallfont">Delivery Addess    --------------------</span></div></div>
+      <div  class="tracking"><div class="tracecart" id="tracepayment">
+          <span class="fa-stack">
+      
+          
+        
+          <span class="fa fa-circle-o fa-stack-2x"></span>
+          
+          <strong class="fa-stack-1x">
+                 3
+          </strong>
+      </span>&nbsp;<span class="smallfont">Payment Opations    --------------------</span></div></div>
+      <div  class="tracking"><div class="tracecart" id="traceorder">
+          <span class="fa-stack">
+      
+          
+        
+          <span class="fa fa-circle-o fa-stack-2x"></span>
+          
+          <strong class="fa-stack-1x">
+                 4
+          </strong>
+      </span>&nbsp;<span class="smallfont">Order Confirmation    --------------------</span></div></div>
+    </div></div>
+        <!-- <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 trace">
+                <span class="fa-stack">
+            
+                
+              
+                <span class="fa fa-circle-o fa-stack-2x"></span>
+                
+                <strong class="fa-stack-1x">
+                       1
+                </strong>
+            </span>&nbsp;<span class="smallfont">Cart    --------------------</span></div></div></div> -->
+<br>
+<br>
+<div class="container-fluid bg-light">
+<div class="row">
+  <h1 class="col-sm-3 item"><b>My Cart-</b> <span class="item">{{count}} items</span></h1>
+  <p class="col-sm-2 offset-sm-3 item">Total Rent: {{amount3}} </p>
+  <div class="col-sm-12 col-md-12  col-lg-3 col-xl-3 offset-xl-8 card notes"> Delivery Notes<a (click)="deliveryNotes()" ><p [ngStyle]="{ 'color':'#17a2b8'}">Add any Delivery notes</p></a>
+    <p id="demo" *ngIf="this.delivery==''"><textarea rows="4" cols="40" name="comment" form="usrform"></textarea></p></div>
+</div>
+
+    <div class="row details" *ngFor="let mycart of mycartdata">
+        <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 col-xl-7 offset-xl-1 card">
+            <div class="row">
+             <div class=" col-sm-5 offset-sm-3  col-xl-3 offset-xl-0 "><img src={{mycart.href}} width="100%"></div><div class="col-sm-4 col-xs-4 offset-xs-8 col-xl-2 offset-xl-0 name"><b>{{mycart.name}}</b></div>
+             <div class="col-sm-4 offset-sm-0  col-xl-2 offset-xl-0  col-lg-3  offset-lg-3 amname" >Refundable Deposit <br>
+                <span style="font-weight:bold;color:green" class="amounts">{{mycart.amount}}</span><br><br>
+                <br>
+            <p class="rent">Rental Period</p> <br> <span style="font-weight:bold;color:black" class="period">6Dec'17-12 Dec'17</span></div>
+             <div class=" col-xl-3 col-sm-4 offset-sm-6 offset-xl-0 delivery ">Delivaery & PickUP <br> <span style="font-weight:bold;color:green" class="amounts">{{mycart.amount2}}</span></div>
+             <div class="col-sm-4 offset-sm-1 col-xl-2  offset-xl-0 rentname" >Rent <br> <span style="font-weight:bold;font-size:20px;color:black" class="amount1">{{mycart.amount3}}</span></div>
+             
+             </div>
+    </div>
+</div>
+
+   <div class="row details"> 
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3  offset-xl-8 card payment">
+            <h5 class="item">Rent Summary</h5>
+            <div class="row">
+                    <table class="table table-borderless smallfont">
+                            
+                            <tbody>
+                              <tr>
+                                <td>Total Rent</td>
+                                <td>{{array}}</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>Total Refundable Deposit</td>
+                                <td>{{refundableamount}}</td>
+                                
+                              </tr>
+                              <tr>
+                                <td>Deliver & pickup</td>
+                                <td>{{deliverycharge}}</td>
+                                
+                              </tr>
+                              <tr>
+                                    <td>Discount</td>
+                                    <td class="amount">-$ 100</td>
+                                    
+                                  </tr>
+                                  <tr>
+                                    <td><input type="checkbox" name="loyality" value="Loyality" id="loyality" [(ngModel)]="loyality" #loyalityControl="ngModel" (change)="checkout(loyality)">Loyality Points<br>you can use max 200 points</td>
+                                    <td id="amount" *ngIf="loyalityamount=='amount'" class="amount">-$ 100</td>
+                                    
+                                  </tr>
+                                  <br>
+                                  <tr>
+                                    <td >Have any Coupon?</td>
+                                    <td *ngIf="promo ==''"><input type="text" name="code"></td>
+                                    <td [(ngModel)]="code" #codeControl="ngModel" (change)="promocode(code)" [ngStyle]="{ 'color':'#17a2b8'}">Enter Code here</td>
+                                    
+                                  </tr>
+                                  <br>
+                                  <tr>
+                                    <td><h5>Total Payable Amount</h5></td>
+                                    <td class="amount"><b>$ 10400</b></td>
+                                    
+                                  </tr>
+                                  <tr>
+                                      <td [ngStyle]="{ 'color':'#17a2b8'}">Hide details</td>
+                                      
+                                      
+                                    </tr>
+                            </tbody>
+                           
+                          </table>
+                          <button type="button" class="btn btn-success col-12 btn" routerLink="/order">CHECKOUT</button>
+        </div>
+    </div>
+    </div>
+    
+    

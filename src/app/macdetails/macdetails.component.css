@@ -1,0 +1,85 @@
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+    
+}
+.carousel-indicators {
+    bottom:-50px;
+  }
+  button:hover{
+      background-color: blueviolet;
+  }
+  .alerts{
+      color:red
+  }
+  .rent{
+      background-color: green;
+  }
+  .carousel-control-next , .carousel-control-prev {
+    right: -20%; 
+  }
+   .carousel-control-prev {
+    left: -20%; 
+  }
+.calender-days{
+    width:60px;
+    height:60px;background:#669999;
+    border:3px solid #c2c2c2;
+}
+.offer{
+  color:green
+}
+
+#wrapper {
+  max-width: 246px;
+  margin: 30px auto;
+  padding-top: 150px;
+}
+html, body{
+height:100%;
+position:releative;
+width:100%;
+}
+body{
+  touch-action:none;
+}
+.qty{
+  width:50%;
+  background-color: green;
+}
+.card {
+  border-radius: 2px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 15px;
+  width: 100%;
+  float: left;
+ 
+  box-shadow: 1px 14px 17px #e5e5e5;
+  -webkit-box-shadow:1px 14px 17px #e5e5e5;
+}
+  @media screen and (min-width: 320px) and (max-width:568px){
+    .carousel-control-next , .carousel-control-prev {
+        right: 0; 
+      }
+       .carousel-control-prev {
+        left: 0; 
+      }
+  }
+  @media screen and (min-width: 568px) and (max-width:823px){
+    /* .input1{
+        margin-left:50px;
+        margin-top:20px;
+    } */
+  }
+  @media screen and (min-width: 500px) and (max-width:600px){
+    .carousel-control-next , .carousel-control-prev {
+      right: 0%; 
+    }
+     .carousel-control-prev {
+      left: 0%; 
+    }
+  }

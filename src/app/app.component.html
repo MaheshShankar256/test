@@ -1,0 +1,41 @@
+<div class="main-wrapper animateIt">
+  <section class="container-fluid card" style="background-color:black">
+    <div class="row" style="padding-top:10px;">
+        <div class="col-xl-2"></div>
+               <p style="color:white"  class="col-6 col-xl-7" >Need Assistance? : Call Us:<a href="#">+91 99999 99999</a></p>
+                <!-- <span class="pull-right"><i class="fa fa-search" aria-hidden="true"></i> </span>   -->
+                <!-- <span class=" col-sm-1 col-xs-1"></span> -->
+               <div  class="col-4 offset-2 col-xl-1"> <i class="fa fa-map-marker"style="color:white" ></i><span style="color:white">Banglore</span></div> 
+  </div>
+  </section>
+  </div>
+  <router-outlet></router-outlet>
+  <div class="main-wrapper animateIt">
+
+<nav class="navbar navbar-expand-lg navbar-light  static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../assets/images/company_logo.png" alt="Nature" height="50px;" >
+        </a>
+        <span><i class="fa fa-search search" aria-hidden="true"></i> </span>
+        <input type="text" name="search" [(ngModel)]="searchBoxData" placeholder="Search for laptop,costumes etc" class="searchinput" width="100%">                 
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+       
+          <li><a routerLink="More" class="dropdown-toggle js-dropdown-toggle name" role="button" aria-haspopup="true" id="menu-0" style="color:black">Hi Jason</a> 
+          </li>
+          <li><a routerLink="/mycart"><i class="fa fa-shopping-cart" style="font-size:24px;color:black"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<!-- Page Content -->
+
+<!-- /.container -->
+
+<router-outlet></router-outlet>

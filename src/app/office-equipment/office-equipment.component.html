@@ -1,0 +1,41 @@
+<!-- <app-dashboard>
+    <div class="col-sm-3">fgghv</div>
+</app-dashboard> -->
+<!-- <div class="row">
+<div class="card col-sm-3" *ngFor="let image of images" >
+        <a routerLink="{{image.path}}"><img class="card-img-top" src="{{image.href}}" alt="Card image" style="width:100%" height="200px;" ></a>
+        <div class="card-body">
+          <h4 class="card-title" >{{image.name}}</h4>
+          <p>{{image.displayname}}</p>
+          <p style="color:green"><i class="{{image.fa}}"></i>{{image.order}}</p>
+           <!-- <p *ngIf="images.order=''"></p> -->
+           <!-- <hr>
+          <a class="btn" style="width:100%;padding-top:10px;padding-bottom:10px;padding-left:0px;margin-left:0px;" >View Details</a>
+        </div>
+      </div>
+</div> --> -->
+      <div class="row">
+      <div class="col-md-9 col-lg-9 col-xl-10 d-flex"  >
+        
+            <div class="col-md-5 col-lg-5 col-xl-3 card equipment "*ngFor="let image of images ">
+                <a routerLink="{{image.path}}"><img class="card-img-top" src="{{image.href}}" alt="Card image" width=100%; height="150px;"  ></a>
+                <div class="card-body">
+                    <p>{{image.productname}}</p>
+                  <h4 class="card-title" >{{image.name}}</h4>
+                  <p>{{image.displayname}}</p>
+                  <p style="color:green"><i class="{{image.fa}}"></i>{{image.order}}</p>
+                  <br><br>
+                  <div class="col-12">
+                  <button type="button" class="btn btn-outline-dark col-3 " style="border-radius:20px;"><i class="	fa fa-inr">500/Day</i></button>
+                  <button type="button" class="btn btn-outline-dark col-4  input1" ><i class="	fa fa-inr">3000/Week</i></button>
+                  <button type="button" class="btn btn-outline-dark input1 col-5" ><i class="	fa fa-inr">14000/Month</i></button>
+                  
+                  </div>
+                  <hr>
+                  <a class="btn btn-normal btn-md-block col-sm-12 view" >View Details</a>
+                 </div>      
+                  </div>
+          
+           
+        </div>
+</div>
