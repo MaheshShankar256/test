@@ -1,0 +1,158 @@
+ /* li{
+   
+    margin-left:50px;
+    
+    margin-top:10px;
+    margin-bottom:10px;
+	font-size: 20px;
+	color:black;
+} */
+/* .input{
+    opacity: 0.5;
+} */ 
+.logo{
+	height:50px;
+}
+  
+.search{
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+ul{
+	
+	 color:black;
+	font-size:24px; 
+}
+.header{
+	background-color:black
+}
+.badge{
+	margin-bottom: 14px;
+    background-color: red;
+
+}
+
+input{
+
+	border-left:5px solid red;
+	width:100%;
+}
+
+.searchinput{
+	width:500px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	border: none;
+    border-color: transparent;
+}
+.name{
+	margin-right:20px;
+	color:black;font-size: 15px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+}
+.cart{
+	font-size:24px;
+	color:black;
+	margin-top:13px;
+}
+a,p,.location{
+	color:white;
+	font-family: 'Times New Roman', Times, serif;
+}
+@media (max-width: 62em) {
+	.navbar-nav {
+		padding-top: .425rem;
+		padding-left: 0.75rem;
+	}
+	.navbar-nav .nav-item {
+		float: none;
+	}
+	.navbar-brand {
+		float: right;
+	}
+	.navbar-brand,
+	.navbar-nav .nav-item {
+		display: block;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+	.dropdown-menu {
+		position: relative;
+		float: none;
+	}
+}
+@media screen and (min-width: 320px) and (max-width:359px){
+	.searchinput{
+		width: 121px;
+    margin-right: 32px;
+	
+	
+	
+	}
+}
+@media screen and (min-width: 600px) and (max-width:639px){
+	.searchinput{
+	    width: 260px;
+    margin-right: 137px;
+}
+}
+@media screen and (min-width: 360px) and (max-width:599px){
+	.search{
+			margin-left: 8px;
+	}
+	/* .searchinput{
+		margin-right: -3px;
+	} */
+	.searchinput{
+		width: 162px;
+		margin-right: 32px;
+	
+	
+	
+	}
+}
+@media screen and (min-width: 400px) and (max-width:450px){
+	.searchinput{
+		width: 207px;
+		margin-right: 32px;
+	
+	
+	
+	}
+}
+@media screen and (min-width: 640px) and (max-width:822px){
+
+.searchinput{
+	width: 300px;
+    margin-left: -248px;
+}
+
+.search{
+	margin-left: -53px;
+}
+}
+@media screen and (min-width: 450px) and (max-width:500px){
+	.searchinput{
+		width: 265px;
+    margin-right: 32px;
+	}
+}
+@media screen and (min-width: 568px) and (max-width:568px){
+	.searchinput{
+		width: 300px;
+		margin-left: -100px;
+	}
+}
+@media screen and (min-width: 823px) and (max-width:992px){
+	/* .search{
+		margin-left: -15px;
+} */
+.searchinput{
+	width: 300px;
+    margin-left: -382px;
+
+}
+}

@@ -1,0 +1,527 @@
+
+a{
+    color:blue;
+}
+.payment{
+    top: 45%;
+    
+    
+}
+.btn{
+    padding:10px;
+    
+}
+li{
+    float:left;
+}
+.amount{
+    color:#13ce3d
+}
+.item{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.amname,.rent,.delivery,.rentname{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.smallfont{
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tracevertival {
+    width: 150px;
+    height: 80px;
+
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+  }
+#div1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  #main{
+      display:flex;
+  }
+  #main .tracking{
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;  
+  }
+  #cart{
+      color:green;
+  }
+
+.card {
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    width: 100%;
+    float: left;
+    box-shadow: 1px 2px 15px #e5e5e5;
+    -webkit-box-shadow: 1px 2px 15px #e5e5e5;
+}
+ @media screen and (min-width: 375px) and (max-width:600px){
+    .delivery{
+        margin-top: -30px;
+    }
+    .payment{
+        top:0px;
+    }
+    .amounts{
+        margin-left: 272px;
+        margin-top: -18px;
+        position: absolute;
+    }
+    .amount1{
+        margin-left: 262px;
+        margin-top: -23px;
+        position: absolute;
+    }
+   .rent,.quantity{
+       margin-top:-51px;
+   }
+    .period{
+        margin-left: 193px;
+        margin-top: -49px;
+        position: absolute;
+
+    } 
+    .details{
+        margin-left:20px;          
+    }
+    .notes{
+        margin-left:20px;
+    }
+    .tracecart{              
+        position:absolute;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+        left: -15%;
+        top: 67%;
+
+} 
+#tracedelivery{
+    left: -23%;
+    top: 94%;
+}
+#tracepayment{
+    left:-24%;
+    top:127%;
+}
+#traceorder{
+    left:-27%;
+    top:160%;
+    margin-left:7px;
+} 
+  } 
+ @media screen and (min-width: 360px) and (max-width:374px){
+    .delivery{
+        margin-top: -30px;
+    }
+    .payment{
+        top:0px;
+
+    }
+    .amounts{
+        margin-left: 252px;
+        margin-top: -18px;
+        position: absolute;
+    }
+    .amount1{
+        margin-left: 241px;
+        margin-top: -23px;
+        position: absolute;
+    
+    }
+   .rent{
+       margin-top:-51px;
+   }
+    .period{
+        margin-left: 173px;
+        margin-top: -56px;
+        position: absolute;
+    
+    }
+    #tracevertival{
+        width: 150px;
+        height: 80px;
+        -ms-transform: rotate(20deg); 
+        -webkit-transform: rotate(20deg); 
+        transform: rotate(180deg);
+    }
+    .details{
+        margin-left:20px;
+    }
+    .notes{
+        margin-left:30px;
+       margin-right:10px;
+    }
+    .trackg{
+       top:20%;
+
+
+    } 
+    .tracecart{              
+        position:absolute;
+        -ms-transform: rotate(90deg); /* IE 9 */
+        -webkit-transform: rotate(90deg); /* Safari 3-8 */
+        transform: rotate(90deg);
+        left:-18%;
+        top:75%;
+} 
+#tracedelivery{
+    left: -28%;
+    top: 105%;
+
+}
+#tracepayment{
+    left:-29%;
+    top:142%;
+}
+#traceorder{
+    left:-32%;
+    top:180%;
+    margin-left:7px;
+} 
+    } 
+    @media screen and (min-width: 600px) and (max-width:639px){
+.amounts{
+    margin-left: 25px;
+    margin-top: -4px;
+}
+.amname{
+    margin-left: 110px;
+}
+.rent{
+    margin-top: -24px;
+}
+.period{
+    margin-left: 0px;
+    margin-top: -24px;
+}
+.delivery{
+    margin-left: 16px;
+    margin-top: 0px;
+}
+.amount1{
+    margin-left: 32px;
+}
+.payment{
+    top: 0px;
+}
+.rentname{
+    margin-left:-7px;
+}
+    }
+    @media screen and (min-width: 320px) and (max-width:359px){
+        .delivery{
+            margin-top: -30px;
+        }
+        .payment{
+            top:0px;    
+        }
+        .amounts{
+            margin-left: 219px;
+            margin-top: -18px;
+            position: absolute;
+        }
+        
+        .amount1{
+            margin-left: 205px;
+            margin-top: -23px;
+            position: absolute;
+                
+        }
+       .rent{
+           margin-top:-51px;
+       }
+        .period{
+            margin-left: 138px;
+            margin-top: -58px;
+            position: absolute;
+        
+        }
+        #tracevertival{
+            width: 150px;
+            height: 80px;
+            -ms-transform: rotate(20deg); 
+            -webkit-transform: rotate(20deg); 
+            transform: rotate(180deg);
+        }
+        .details{
+            margin-left:20px;
+   }
+        .notes{
+            margin-left:30px;
+        }
+        .tracecart{
+                  
+            position:absolute;
+            -ms-transform: rotate(90deg); /* IE 9 */
+            -webkit-transform: rotate(90deg); /* Safari 3-8 */
+            transform: rotate(90deg);
+            left:-18%;
+            top:85%;
+        } 
+        #tracedelivery{
+        left:-29%;
+        top:120%;
+        }
+        #tracepayment{
+        left:-31%;
+        top:162%;
+        }
+        #traceorder{
+        left:-35%;
+        top:205%;
+        margin-left:7px;
+        } 
+     }
+                 @media screen and (min-width: 640px) and (max-width:992px){
+                   .amname{
+                       margin-left: 172px;
+                   }
+                    .delivery{
+                        margin-top: -167px;
+                        
+                }
+                .payment{
+                    top: 0px;
+                }
+                .details{
+                    margin-left:30px;
+                }
+                .notes{
+                    margin-left:40px;
+                    
+                }
+                /* .trackg{
+                    position: absolute;
+    transform: rotate(90deg);
+    left: -65%;
+    top: 224%;
+                } */
+                .tracecart{
+                    position: absolute;
+                    transform: rotate(90deg);
+                    left: -9%;
+                    top: 125%;
+            } 
+            #tracedelivery{
+                left:-16%;
+                top:180%;
+                margin-left:6px;
+            }
+            #tracepayment{
+                left:-16%;
+                top:242%;
+            }
+            #traceorder{
+                left:-18%;
+                top:310%;
+                margin-left:7px;
+            } 
+               }
+               @media screen and (min-width: 823px) and (max-width:823px){
+                .tracecart{
+                    position: absolute;
+                    transform: rotate(90deg);
+                    left: -6%;
+                    top: 70%;
+            } 
+            /* #tracedelivery{
+                left:-11%;
+                top:118%;
+                margin-left:6px;
+            }
+            #tracepayment{
+                left:-11%;
+                top:180%;
+            }
+            #traceorder{
+                left:-12%;
+                top:242%;
+                margin-left:7px;
+            }  */
+               }
+               @media screen and (min-width: 823px) and (max-width:823px){
+                .amname{
+                    margin-left: 172px;
+                }
+                 .delivery{
+                     margin-top: -167px;
+                     
+             }
+             .details{
+                 margin-left:30px;
+             }
+             .tracecart{
+                 position: absolute;
+                 transform: rotate(90deg);
+                 left: -7%;
+                 top: 105%;
+         } 
+         #tracedelivery{
+             left:-12%;
+             top:155%;
+             margin-left:6px;
+         }
+         #tracepayment{
+             left:-12%;
+             top:215%;
+         }
+         #traceorder{
+             left:-13%;
+             top:277%;
+             margin-left:7px;
+         } 
+            }
+            @media screen and (min-width: 768px) and (max-width:800px){
+             .tracecart{
+                 position: absolute;
+                 transform: rotate(90deg);
+                 left: -7%;
+                 top: 43%;
+         } 
+         #tracedelivery{
+             left:-13%;
+             top:62%;
+             margin-left:6px;
+         }
+         #tracepayment{
+             left:-13%;
+             top:84%;
+         }
+         #traceorder{
+             left:-14%;
+             top:108%;
+             margin-left:7px;
+         } 
+            }
+               
+               @media screen and (min-width: 993px) and (max-width:1200px){
+                .delivery{
+                    margin-top: -171px;
+            }
+            .details{
+                margin-left:30px;
+             }
+             .tracecart{
+                     position:absolute;
+                    -ms-transform: rotate(90deg); /* IE 9 */
+                    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+                    transform: rotate(90deg);
+                    left:-5%;
+                    top:45%;
+            }
+            #tracedelivery{
+                left:-9%;
+                top:72%;
+                margin-left:5px;
+            }
+            #tracepayment{
+                left:-9%;
+                top:102%;
+            }
+            #traceorder{
+                left:-10%;
+                top:135%;
+                margin-left:5px;
+            }
+               }
+               @media screen and (min-width: 500px) and (max-width:600px){
+                .amounts{
+                    margin-left: 0px;
+                   margin-top: 0px;                 
+                }
+                .period{
+                    margin-left: 0px;
+                    margin-top: -30px;
+                    
+                }
+                .delivery{
+                    margin-left: 0px;
+                    margin-top: 0px;
+                }
+                .rentname{
+                    margin-left: -3px;
+    margin-top: 14px;
+                }
+                .amount1{
+                    margin-left:40px;
+                    margin-top:-25px;
+                }
+                
+               }
+               @media screen and (min-width: 568px) and (max-width:568px){
+                .tracecart{
+                    position:absolute;
+                   -ms-transform: rotate(90deg); /* IE 9 */
+                   -webkit-transform: rotate(90deg); /* Safari 3-8 */
+                   transform: rotate(90deg);
+                   left:-10%;
+                   top:137%;
+           }
+           #tracedelivery{
+               left:-17%;
+               top:200%;
+               margin-left:5px;
+           }
+           #tracepayment{
+               left:-17%;
+               top:275%;
+           }
+           #traceorder{
+               left:-19%;
+               top:350%;
+               margin-left:5px;
+           }
+               }
+               @media screen and (min-width: 375px) and (max-width:375px){
+                .tracecart{
+                    position:absolute;
+                   -ms-transform: rotate(90deg); /* IE 9 */
+                   -webkit-transform: rotate(90deg); /* Safari 3-8 */
+                   transform: rotate(90deg);
+                   left:-15%;
+                   top:70%;
+           }
+           #tracedelivery{
+               left:-26%;
+               top:100%;
+               margin-left:5px;
+           }
+           #tracepayment{
+               left:-26%;
+               top:135%;
+           }
+           #traceorder{
+               left:-28%;
+               top:170%;
+               margin-left:5px;
+           }
+               }
+               @media screen and (min-width: 1200px) {
+                .note{
+                    margin-top:60px;
+                    position:sticky;
+                }
+                .details{
+                    margin-top:-140px;
+                    position:sticky;          
+                }
+               }   
+               

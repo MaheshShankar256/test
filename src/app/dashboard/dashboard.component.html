@@ -1,0 +1,78 @@
+  <div class="main-wrapper animateIt  " >
+<div class="container-fluid bg-light" >
+  <div class="row d-flex">
+    <div class=" col-md-4 col-lg-4 col-xl-3">
+        
+      <div class=" card">
+            <ul>
+                    <li><a href="">Categories</a></li>
+                    <hr>
+               <li><a routerLink="#" class="nav">Tools on Rent</a></li>
+               <li><a routerLink="" class="nav">Medicle Supplies</a></li>
+               <li class="active"><a class="nav" >Office Equipment</a></li>
+               <li><a routerLink="" class="nav">Kids costume</a></li>
+               <li><a routerLink="" class="nav">Event Rentals</a></li>
+               <li><a routerLink="" class="nav">Apparel & Jewellery</a></li>
+               <li><a routerLink="" class="nav">Bedding</a></li>
+            </ul>
+        </div>         
+    </div>
+   
+    
+    <div class="col-md-8 col-lg-8 col-xl-9 d-flex"  >
+    <div class="row">
+        <div class="col-md-12 col-lg-6 col-xl-4 card  equipment"*ngFor="let image of images| filter: searchBoxData ">
+            <div id="{{image.id}}" class="carousel slide " data-ride="carousel">
+
+                 
+              
+              
+             
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../assets/images/refrigerator.jpg"  routerLink="{{image.path}}" alt="Refrigerator" width="100%" height="150px">
+                </div>
+                <div class="carousel-item">
+                  <img src="../assets/images/macbook.jpg"  routerLink="{{image.path}}" alt="Mac Book" width="100%" height="150px">
+                </div>
+                
+                    </div>
+              
+              
+              
+              <a class="carousel-control-prev" href="#{{image.id}}" data-slide="prev">
+                <span class="fa fa-angle-left" style="font-size:36px"></span>
+              </a>
+              <a class="carousel-control-next" href="#{{image.id}}" data-slide="next">
+                <span class="fa fa-angle-right" style="font-size:36px" ></span>
+              </a>
+            </div>
+            <div class="card-body">
+                <p class="data"><b>{{image.productname}}</b></p>
+              <h4 class="card-title data1" ><b>{{image.name}}</b></h4>
+              <p>{{image.displayname}}</p>
+              <p  class="data" id="ordername"><i class="{{image.fa}}"></i>{{image.order}}</p>
+              <p  class="data" style="color:green" *ngIf="order == ''"><br></p>
+   
+              <div class="col-12">
+              <button type="button" class="btn btn-outline-dark col-3 col-md-6  col-xl-3 input1 " style="border-radius:20px;"><i class="	fa fa-inr">500/Day</i></button>
+              <button type="button" class="btn btn-outline-dark col-4  col-md-6 col-xl-4 input1 " ><i class="	fa fa-inr">3000/Week</i></button>
+              <button type="button" class="btn btn-outline-dark input1  col-4 col-md-6  col-xl-4 "><i class="	fa fa-inr">14000/Mon</i></button>
+             
+              </div>
+              <hr>
+              <div class="row">
+              <button class="btn btn-normal btn-md-block col-sm-12 view active" >View Details</button>
+              </div>
+             </div>      
+              </div>
+      </div>
+       
+    </div>
+
+  </div> 
+
+ 
+</div>
+</div>
+
