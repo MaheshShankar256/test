@@ -23,8 +23,6 @@ describe('workspace-project App', () => {
 });
 //prashanth
 //prashanth
-<<<<<<< HEAD
+
 //kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkikk
-=======
-//kkkkkkkkkkk
->>>>>>> 1ca3a1b5015e844fb9c258ae5942811db640548e
+
